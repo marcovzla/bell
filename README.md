@@ -1,6 +1,7 @@
 # bell
 
-This script requires `pygame`. You can install it with the following command:
+This script requires [pygame](https://github.com/pygame/pygame).
+You can install it with the following command:
 
     pip install pygame
 
