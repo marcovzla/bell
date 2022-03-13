@@ -16,5 +16,6 @@ mp3 = io.BytesIO(base64.a85decode(data))
 mixer.init()
 mixer.music.load(mp3)
 mixer.music.play()
+print("\N{BELL}")
 while mixer.music.get_busy():
     time.sleep(1)
