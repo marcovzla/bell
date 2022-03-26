@@ -94,7 +94,7 @@ parser.add_argument(
     "--quote",
     dest="print_quote",
     action="store_true",
-    help="print a quote that explains the bell sound."
+    help="print a quote that explains the bell sound.",
 )
 parser.add_argument(
     "-s",
